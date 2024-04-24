@@ -1,0 +1,13 @@
+assumming work for 'SandBox Backup' folder
+
+1. read all files' path and store 
+	- only read files a month before the current day? or all files? 
+2. do with each file
+	2.1 parse file name and make path for OneDrive for each file
+	2.2 checking file exist 
+
+	2.3.1 if exist, go to next file 
+	2.3.2 if not, 
+		2.3.2.1 check eahc folder exist in the path and make folder if not
+
+	2.4 upload file 
